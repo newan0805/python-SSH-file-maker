@@ -1,0 +1,19 @@
+PAGE
+    Toplevel: SSH Tooler
+        Frame: Frame1  locked
+            Text: txtOutput  locked
+        Frame: Frame1_1  locked
+            Text: username  
+            Label: Label2  locked
+            Label: Label3  locked
+            Text: password  
+            TSeparator: TSeparator1  
+            Button: btnLogin  locked
+            Label: Label4  
+            Button: btnDriver  locked
+            Label: Label5  locked
+            Label: Label6  locked
+            Button: btnSave  locked
+            Button: btnReset  locked
+        Label: Label1  
+

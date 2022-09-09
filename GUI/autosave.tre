@@ -1,0 +1,27 @@
+PAGE
+    Toplevel: Toplevel 0
+        
+        Button: Button1  
+        Button: Button2  
+        Label: username  
+        Label: Label2  
+        Text: Text1  
+        Text: Text2  
+    Toplevel: Error Information
+        
+             command: 
+        set exit_flag 1
+        set exitvar 1
+    
+             command: 
+        vTcl:save_err_msg
+        set exit_flag 1
+        set exitvar 1
+    
+             command: 
+        destroy .err_top
+       set exit_flag 0
+        set exitvar 1
+    
+        
+
